@@ -103,10 +103,10 @@ https://templatemo.com/tm-559-zay-shop
                     @auth
                         <a href="{{ url('/') }}" class="text-sm text-gray-700 dark:text-gray-500">Home</a>
                     @else
-                        <a href="{{ route('login') }}" class="px-2 text-sm text-gray-700 dark:text-gray-500">Log in</a>
+                        <a href="{{ route('login') }}" class="px-2 text-sm text-white fw-bold btn btn-primary">Log in</a>
 
                         @if (Route::has('register'))
-                            <a href="{{ route('register') }}" class="ml-4 text-sm text-gray-700 dark:text-gray-500 ">Register</a>
+                            <a href="{{ route('register') }}" class="text-white fw-bold btn btn-success">Register</a>
                         @endif
                     @endauth
                 </div>
